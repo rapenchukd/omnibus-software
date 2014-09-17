@@ -15,7 +15,7 @@
 #
 
 name "nodejs"
-default_version "0.10.10"
+default_version "0.10.32"
 
 dependency "python"
 
@@ -25,6 +25,10 @@ end
 
 version "0.10.26" do
   source md5: "15e9018dadc63a2046f61eb13dfd7bd6"
+end
+
+version "0.10.32" do
+  source md5: "fadefc15a992d21bd19d0d3ec174390d1e7fcb72"
 end
 
 source url: "http://nodejs.org/dist/v#{version}/node-v#{version}.tar.gz"
